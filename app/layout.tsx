@@ -26,6 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon-boldo.svg" />
       <body className={inter.className}>{children}</body>
     </html>
   );

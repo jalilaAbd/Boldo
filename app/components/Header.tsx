@@ -27,9 +27,6 @@ const Header = () => {
     };
   });
 
-  const handleMenu = () => {
-    setRestreintMenu(!restreintMenu);
-  };
   return (
     <div className="relative z-20 flex justify-between w-full">
       <Image

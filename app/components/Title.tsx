@@ -4,10 +4,10 @@ interface Props {
   label: string;
   color?: string;
   size?: "normal" | "small";
-  position: "default" | "center";
+  position?: "default" | "center";
 }
 
-const Title = ({ label, color, size, position = "default" }: Props) => {
+const Title = ({ label, color, size, position }: Props) => {
   return (
     <div>
       <p

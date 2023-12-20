@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 
-interface Props {
+interface Props extends React.HTMLAttributes<HTMLButtonElement> {
   label: string;
   type?: "normal" | "small" | "transparent";
   bgColor?: string;
   fontColor?: string;
   borderColor?: string;
-  onClick?: () => void;
+  //onClick?: () => void;
 }
 
 const Button = ({
@@ -16,8 +16,9 @@ const Button = ({
   bgColor,
   fontColor,
   borderColor,
-  onClick,
-}: Props) => {
+  ...rest
+}: //onClick,
+Props) => {
   return (
     <button
       type="button"
@@ -30,7 +31,8 @@ const Button = ({
             } px-56 h-60 border-2 border-solid rounded-56`
           : `${bgColor ? `bg-${bgColor}` : `bg-green`} px-56 h-60 rounded-56`
       }`}
-      onClick={() => onClick()}
+      {...rest}
+      //onClick={() => onClick()}
     >
       <span
         className={`${

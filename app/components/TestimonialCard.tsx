@@ -12,7 +12,7 @@ interface Props {
   user: User;
 }
 
-function testimonialCard({ testimonial, user }: Props) {
+function TestimonialCard({ testimonial, user }: Props) {
   return (
     <div className="flex flex-col w-320 sm:w-350 h-fit rounded-12 shadow-medium bg-white mb-40 md:mx-12 p-22 sm:p-40">
       <p className="font-sans text-24 leading-36">{testimonial}</p>
@@ -21,4 +21,4 @@ function testimonialCard({ testimonial, user }: Props) {
   );
 }
 
-export default testimonialCard;
+export default TestimonialCard;

@@ -5,7 +5,7 @@ import Title from "./Title";
 import Text from "./Text";
 import Button from "./Button";
 
-const banner = () => {
+const Banner = () => {
   return (
     <div className="relative flex flex-col items-center w-full max-w-full h-fit px-20 sm:px-40 xl:px-100 py-50 bg-darkBlue">
       <div className="absolute z-0 right-0 top-0 w-300 md:w-[600px] h-300 md:h-[600px] rounded-bl-full bg-blue" />
@@ -51,4 +51,4 @@ const banner = () => {
   );
 };
 
-export default banner;
+export default Banner;

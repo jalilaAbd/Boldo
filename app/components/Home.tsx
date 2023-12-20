@@ -10,7 +10,7 @@ import Accordion from "./Accordion";
 import Button from "./Button";
 import Feather from "./Feather";
 
-const home = () => {
+const Home = () => {
   const serviceList = [
     {
       image: "/service1.png",
@@ -274,4 +274,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

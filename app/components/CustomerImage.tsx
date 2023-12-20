@@ -6,7 +6,7 @@ interface Props {
   graph: string;
 }
 
-const customerImage = ({ image, graph }: Props) => {
+const CustomerImage = ({ image, graph }: Props) => {
   return (
     <div className="relative mb-120 md:mx-25 lg:mx-75">
       <Image
@@ -28,4 +28,4 @@ const customerImage = ({ image, graph }: Props) => {
   );
 };
 
-export default customerImage;
+export default CustomerImage;

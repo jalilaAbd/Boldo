@@ -3,7 +3,7 @@ import React, { useEffect, useReducer, useState, useRef } from "react";
 import Image from "next/image";
 import Button from "./Button";
 
-const header = () => {
+const Header = () => {
   const menuItems = [
     { label: "Product" },
     { label: "Services" },
@@ -87,4 +87,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

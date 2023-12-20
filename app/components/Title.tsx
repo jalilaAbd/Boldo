@@ -7,7 +7,7 @@ interface Props {
   position: "default" | "center";
 }
 
-const title = ({ label, color, size, position }: Props) => {
+const Title = ({ label, color, size, position }: Props) => {
   return (
     <div>
       <p
@@ -24,4 +24,4 @@ const title = ({ label, color, size, position }: Props) => {
   );
 };
 
-export default title;
+export default Title;

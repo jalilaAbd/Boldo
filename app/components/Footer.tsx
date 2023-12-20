@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   const footerList = [
     { title: "Landings", links: ["Home", "Products", "Services"] },
     { title: "Company", links: ["Home", "Careers", "Services"] },
@@ -52,4 +52,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

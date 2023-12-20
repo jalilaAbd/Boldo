@@ -11,7 +11,7 @@ interface Props {
   userName: string;
 }
 
-const categoryCard = ({
+const CategoryCard = ({
   image,
   title,
   description,
@@ -42,4 +42,4 @@ const categoryCard = ({
   );
 };
 
-export default categoryCard;
+export default CategoryCard;

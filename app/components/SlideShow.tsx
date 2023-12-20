@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import TestimonialCard from "./TestimonialCard";
 import Image from "next/image";
 
-const slideShow = () => {
+const SlideShow = () => {
   const testimonialList = [
     {
       id: 1,
@@ -127,4 +127,4 @@ const slideShow = () => {
   );
 };
 
-export default slideShow;
+export default SlideShow;

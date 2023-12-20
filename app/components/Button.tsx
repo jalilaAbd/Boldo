@@ -10,7 +10,7 @@ interface Props {
   onClick?: () => void;
 }
 
-const button = ({
+const Button = ({
   label,
   type = "normal",
   bgColor,
@@ -47,4 +47,4 @@ const button = ({
   );
 };
 
-export default button;
+export default Button;

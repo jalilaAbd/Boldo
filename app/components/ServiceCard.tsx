@@ -7,7 +7,7 @@ interface Props {
   description: string;
 }
 
-const serviceCard = ({ image, title, description }: Props) => {
+const ServiceCard = ({ image, title, description }: Props) => {
   return (
     <div className="flex flex-col w-300 md:mx-20 lg:mx-50 pb-82">
       <Image
@@ -39,4 +39,4 @@ const serviceCard = ({ image, title, description }: Props) => {
   );
 };
 
-export default serviceCard;
+export default ServiceCard;

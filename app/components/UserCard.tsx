@@ -7,7 +7,7 @@ interface Props {
   post?: string;
 }
 
-const userCard = ({ avatar, name, post }: Props) => {
+const UserCard = ({ avatar, name, post }: Props) => {
   return (
     <div
       className={`flex items-center ${
@@ -45,4 +45,4 @@ const userCard = ({ avatar, name, post }: Props) => {
   );
 };
 
-export default userCard;
+export default UserCard;
